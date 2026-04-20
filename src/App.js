@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route,  Navigate} from "react-router-dom";
+import { HashRouter, Routes, Route,  Navigate} from "react-router-dom";
 import { useEffect, useState } from "react";
 import Layout from "./components/Layout";
 
@@ -31,7 +31,7 @@ function App() {
 
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
 
         {/* 🔴 Default route */}
